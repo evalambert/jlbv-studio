@@ -78,8 +78,8 @@ function changeMedia () {
       file: 'jules-bouchier-vegis--extravaganza-suspiria-1.png',
       title_en: 'Extravagenza Suspiria',
       title_fr: 'Extravagenza Suspiria',
-      material_en: 'marble',
-      material_fr: 'marble',
+      material_en: 'marble,',
+      material_fr: 'marble,',
       size: '',
       date: '2023'
     },
@@ -88,8 +88,8 @@ function changeMedia () {
       file: 'jules-bouchier-vegis--extravaganza-suspiria-2.png',
       title_en: 'Extravagenza Suspiria',
       title_fr: 'Extravagenza Suspiria',
-      material_en: 'marble',
-      material_fr: 'marble',
+      material_en: 'marble,',
+      material_fr: 'marble,',
       size: '',
       date: '2023'
     },
@@ -98,8 +98,8 @@ function changeMedia () {
       file: 'jules-bouchier-vegis--extravaganza-suspiria-3.jpg',
       title_en: 'Extravagenza Suspiria',
       title_fr: 'Extravagenza Suspiria',
-      material_en: 'marble',
-      material_fr: 'marble',
+      material_en: 'marble,',
+      material_fr: 'marble,',
       size: '',
       date: '2023'
     },
@@ -108,8 +108,8 @@ function changeMedia () {
       file: 'jules-bouchier-vegis--la-banquise-de-notos--1.jpg',
       title_en: 'La banquise de Notos',
       title_fr: 'La banquise de Notos',
-      material_en: 'marble',
-      material_fr: 'marble',
+      material_en: 'marble,',
+      material_fr: 'marble,',
       size: '',
       date: '2023'
     },
@@ -118,8 +118,8 @@ function changeMedia () {
       file: 'jules-bouchier-vegis--la-banquise-de-notos--2.jpg',
       title_en: 'La banquise de Notos',
       title_fr: 'La banquise de Notos',
-      material_en: 'marble',
-      material_fr: 'marble',
+      material_en: 'marble,',
+      material_fr: 'marble,',
       size: '',
       date: '2023'
     },
@@ -128,8 +128,8 @@ function changeMedia () {
       file: 'jules-bouchier-vegis--la-banquise-de-notos--3.jpg',
       title_en: 'La banquise de Notos',
       title_fr: 'La banquise de Notos',
-      material_en: 'marble',
-      material_fr: 'marble',
+      material_en: 'marble,',
+      material_fr: 'marble,',
       size: '',
       date: '2023'
     }
@@ -162,10 +162,10 @@ function changeMedia () {
 
   // Update captions
   $('.caption > h3.en_lang').html(
-    `<span class="title">${randomMedia.title_en}</span>, marble, ${randomMedia.size}, 2023`
+    `<span class="title">${randomMedia.title_en}</span>, ${randomMedia.material_en} ${randomMedia.size} ${randomMedia.date}`
   )
   $('.caption > h3.fr_lang').html(
-    `<span class="title">${randomMedia.title_fr}</span>, marbre, ${randomMedia.size}, 2023`
+    `<span class="title">${randomMedia.title_fr}</span>, ${randomMedia.material_fr} ${randomMedia.size} ${randomMedia.date}`
   )
 }
 
