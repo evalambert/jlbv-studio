@@ -229,6 +229,16 @@ video.fade-out {
   opacity: 0;
 }
 
+.image {
+  width: auto;
+  height: 100vh;
+  transition: opacity 0.2s ease;
+  opacity: 1;
+}
+
+.image.fade-out {
+  opacity: 0;
+}
 /* WRAPPER-CONTACT ///////////////////////////////*/
 .wrapper-contact {
   height: 100%;

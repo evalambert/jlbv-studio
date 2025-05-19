@@ -1,120 +1,206 @@
 // RAMDOM VIDEO ////////////////////////
-let lastVideoIndex = -1; // mémorise l'index de la dernière vidéo jouée
+let lastMediaIndex = -1 // mémorise l'index de la dernière vidéo jouée
 
-function changeVideo() {
-  const videos = [
+function changeMedia () {
+  const media = [
     {
+      type: 'video',
       file: 'jules-bouchier-vegis-stupeur-1.mp4',
       title_en: 'Stupeur bleue',
       title_fr: 'Stupeur bleue',
-      size: '35x25cm'
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '35x25cm',
+      date: '2023'
     },
     {
+      type: 'video',
       file: 'jules-bouchier-vegis-stupeur-2.mp4',
       title_en: 'Stupeur Chair',
       title_fr: 'Chaise Stupeur',
-      size: '50x17cm'
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '50x17cm',
+      date: '2023'
     },
     {
+      type: 'video',
       file: 'jules-bouchier-vegis-stupeur-3.mp4',
       title_en: 'Stupeur Noire',
       title_fr: 'Stupeur Noire',
-      size: '30x20cm'
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '30x20cm',
+      date: '2023'
     },
     {
+      type: 'video',
       file: 'jules-bouchier-vegis-stupeur-4.mp4',
       title_en: 'Stupeur rouge',
       title_fr: 'Stupeur rouge',
-      size: '25x25cm'
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '25x25cm',
+      date: '2023'
+    },
+    {
+      type: 'image',
+      file: 'jules-bouchier-vegis--balaguere--1.jpg',
+      title_en: 'Balaguere',
+      title_fr: 'Balaguere',
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '',
+      date: '2023'
+    },
+    {
+      type: 'image',
+      file: 'jules-bouchier-vegis--bureau-01--1.jpg',
+      title_en: 'Bureau-01',
+      title_fr: 'Desk-01',
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '',
+      date: '2023'
+    },
+    {
+      type: 'image',
+      file: 'jules-bouchier-vegis--bureau-01--2.jpg',
+      title_en: 'Bureau-01',
+      title_fr: 'Desk-01',
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '',
+      date: '2023'
+    },
+    {
+      type: 'image',
+      file: 'jules-bouchier-vegis--extravaganza-suspiria-1.png',
+      title_en: 'Extravagenza Suspiria',
+      title_fr: 'Extravagenza Suspiria',
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '',
+      date: '2023'
+    },
+    {
+      type: 'image',
+      file: 'jules-bouchier-vegis--extravaganza-suspiria-2.png',
+      title_en: 'Extravagenza Suspiria',
+      title_fr: 'Extravagenza Suspiria',
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '',
+      date: '2023'
+    },
+    {
+      type: 'image',
+      file: 'jules-bouchier-vegis--extravaganza-suspiria-3.jpg',
+      title_en: 'Extravagenza Suspiria',
+      title_fr: 'Extravagenza Suspiria',
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '',
+      date: '2023'
+    },
+    {
+      type: 'image',
+      file: 'jules-bouchier-vegis--la-banquise-de-notos--1.jpg',
+      title_en: 'La banquise de Notos',
+      title_fr: 'La banquise de Notos',
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '',
+      date: '2023'
+    },
+    {
+      type: 'image',
+      file: 'jules-bouchier-vegis--la-banquise-de-notos--2.jpg',
+      title_en: 'La banquise de Notos',
+      title_fr: 'La banquise de Notos',
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '',
+      date: '2023'
+    },
+    {
+      type: 'image',
+      file: 'jules-bouchier-vegis--la-banquise-de-notos--3.jpg',
+      title_en: 'La banquise de Notos',
+      title_fr: 'La banquise de Notos',
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '',
+      date: '2023'
     }
-  ];
+  ]
 
-  let randomIndex;
+  let randomIndex
   do {
-    randomIndex = Math.floor(Math.random() * videos.length);
-  } while (randomIndex === lastVideoIndex);
+    randomIndex = Math.floor(Math.random() * media.length)
+  } while (randomIndex === lastMediaIndex)
 
-  lastVideoIndex = randomIndex;
+  lastMediaIndex = randomIndex
 
-  const randomVideo = videos[randomIndex];
-  const videoElem = document.querySelector('video');
+  const randomMedia = media[randomIndex]
 
-  // Ajout de la classe pour fade out
-  videoElem.classList.add('fade-out');
+  const videoElem = document.querySelector('video')
+  const imageElem = document.getElementById('media-image')
 
-  // On attend la fin de la transition CSS (fade out)
-  videoElem.addEventListener('transitionend', () => {
-    const target = document.getElementById('target');
-    target.src = randomVideo.file;
-    videoElem.load();
-    videoElem.play();
+  if (randomMedia.type === 'video') {
+    imageElem.style.display = 'none'
+    videoElem.style.display = 'block'
+    const target = document.getElementById('target')
+    target.src = randomMedia.file
+    videoElem.load()
+    videoElem.play()
+  } else {
+    videoElem.style.display = 'none'
+    imageElem.style.display = 'block'
+    imageElem.src = randomMedia.file
+  }
 
-    // Retire la classe fade-out pour fade-in
-    videoElem.classList.remove('fade-out');
-
-    // Mise à jour des légendes
-    $('.caption > h3.en_lang').html(
-      `<span class="title">${randomVideo.title_en}</span>, marble, ${randomVideo.size}, 2023`
-    );
-    $('.caption > h3.fr_lang').html(
-      `<span class="title">${randomVideo.title_fr}</span>, marbre, ${randomVideo.size}, 2023`
-    );
-  }, { once: true });
+  // Update captions
+  $('.caption > h3.en_lang').html(
+    `<span class="title">${randomMedia.title_en}</span>, marble, ${randomMedia.size}, 2023`
+  )
+  $('.caption > h3.fr_lang').html(
+    `<span class="title">${randomMedia.title_fr}</span>, marbre, ${randomMedia.size}, 2023`
+  )
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  changeVideo();
+  changeMedia()
 
   $('.wrapper-contact').click(() => {
-    changeVideo();
-  });
-});
+    changeMedia()
+  })
+})
 
-//// LANG SWITCH ////////////////////////
+// LANG SWITCH
 $(document).ready(function () {
-  // By default
-  $('.en_lang').addClass('active-lang');
-  $('#lang-switch .en').addClass('active-flag');
+  $('.en_lang').addClass('active-lang')
+  $('#lang-switch .en').addClass('active-flag')
 
-  // Function switch
-  $(function () {
-    // French button
-    $('#lang-switch .fr').click(function () {
-      // Enable French
-      $('.fr_lang').addClass('active-lang');
+  $('#lang-switch .fr').click(function () {
+    $('.fr_lang').addClass('active-lang')
+    $('.en_lang').removeClass('active-lang')
+    $('#lang-switch .fr').addClass('active-flag')
+    $('#lang-switch .en').removeClass('active-flag')
+  })
 
-      // Disable English
-      $('.en_lang').removeClass('active-lang');
+  $('#lang-switch .en').click(function () {
+    $('.en_lang').addClass('active-lang')
+    $('.fr_lang').removeClass('active-lang')
+    $('#lang-switch .en').addClass('active-flag')
+    $('#lang-switch .fr').removeClass('active-flag')
+  })
 
-      // Active or remove the opacity on the flags.
-      $('#lang-switch .fr').addClass('active-flag');
-      $('#lang-switch .en').removeClass('active-flag');
-    });
-
-    // English button
-    $('#lang-switch .en').click(function () {
-      // Enable English
-      $('.en_lang').addClass('active-lang');
-
-      // Disable French
-      $('.fr_lang').removeClass('active-lang');
-
-      // Active or remove the opacity on the flags.
-      $('#lang-switch .en').addClass('active-flag');
-      $('#lang-switch .fr').removeClass('active-flag');
-    });
-  });
-});
-
-$(function () {
-  // OPEN-INFOS ////////////////////////
-  $(document).ready(function () {
-    $('#infos-open').click(function () {
-      $('body').addClass('info-is-opn');
-    });
-
-    $('#infos-close').click(function () {
-      $('body').removeClass('info-is-opn');
-    });
-  });
-});
+  // OPEN-INFOS
+  $('#infos-open').click(function () {
+    $('body').addClass('info-is-opn')
+  })
+  $('#infos-close').click(function () {
+    $('body').removeClass('info-is-opn')
+  })
+})
