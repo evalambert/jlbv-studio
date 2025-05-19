@@ -148,7 +148,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  display: fixed;
+  position: fixed;
   overflow: hidden;
   font-family: "Pano", Helvetica, sans-serif;
 }
@@ -222,15 +222,13 @@ a:hover {
 video {
   width: auto;
   height: 100%;
-}
-video.fade-transition {
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.2s ease;
   opacity: 1;
 }
-
 video.fade-out {
   opacity: 0;
 }
+
 /* WRAPPER-CONTACT ///////////////////////////////*/
 .wrapper-contact {
   height: 100%;
