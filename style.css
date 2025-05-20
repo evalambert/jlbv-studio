@@ -190,7 +190,7 @@ a:hover {
   -webkit-box-shadow: 3px 2px 143px 13px white inset;
   -moz-box-shadow: 3px 2px 143px 13px white inset;
 }
-.gradient-black {
+/* .gradient-black {
   position: fixed;
   height: 100vh;
   width: 100vw;
@@ -199,7 +199,7 @@ a:hover {
   align-items: center;
   background: linear-gradient(to bottom, white, 90%, lightgrey);
   mix-blend-mode: multiply;
-}
+} */
 
 /* IMG - VIDEO ///////////////////////////////*/
 @keyframes learn {

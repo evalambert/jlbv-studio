@@ -1,11 +1,17 @@
 // RAMDOM VIDEO ////////////////////////
 let lastMediaIndex = -1 // mémorise l'index de la dernière vidéo jouée
 
+function buildLine (...fields) {
+  const filtered = fields.filter(f => f && f.trim() !== '')
+  if (filtered.length === 0) return ''
+  return ', ' + filtered.join(', ')
+}
+
 function changeMedia () {
   const media = [
     {
       type: 'video',
-      file: 'jules-bouchier-vegis-stupeur-1.mp4',
+      file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747408/jules-belvega--stupeur-chair--2022_phd4sv.mp4',
       title_en: 'Stupeur bleue',
       title_fr: 'Stupeur bleue',
       material_en: 'marble',
@@ -15,27 +21,7 @@ function changeMedia () {
     },
     {
       type: 'video',
-      file: 'jules-bouchier-vegis-stupeur-2.mp4',
-      title_en: 'Stupeur Chair',
-      title_fr: 'Chaise Stupeur',
-      material_en: 'marble',
-      material_fr: 'marble',
-      size: '50x17cm',
-      date: '2023'
-    },
-    {
-      type: 'video',
-      file: 'jules-bouchier-vegis-stupeur-3.mp4',
-      title_en: 'Stupeur Noire',
-      title_fr: 'Stupeur Noire',
-      material_en: 'marble',
-      material_fr: 'marble',
-      size: '30x20cm',
-      date: '2023'
-    },
-    {
-      type: 'video',
-      file: 'jules-bouchier-vegis-stupeur-4.mp4',
+      file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747407/jules-belvega--stupeur-noir--2022_hbq3zt.mp4',
       title_en: 'Stupeur rouge',
       title_fr: 'Stupeur rouge',
       material_en: 'marble',
@@ -45,7 +31,7 @@ function changeMedia () {
     },
     {
       type: 'image',
-      file: 'jules-bouchier-vegis--balaguere--1.jpg',
+      file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747745170/jules-belvega--botch-01-brussels--2023-3-ld_ov4r5j.jpg',
       title_en: 'Balaguere',
       title_fr: 'Balaguere',
       material_en: 'marble',
@@ -55,81 +41,11 @@ function changeMedia () {
     },
     {
       type: 'image',
-      file: 'jules-bouchier-vegis--bureau-01--1.jpg',
-      title_en: 'Bureau-01',
-      title_fr: 'Desk-01',
+      file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747745173/jules-belvega--bureau-001--2024-1-ld_whzubw.jpg',
+      title_en: 'La banquise de Notos',
+      title_fr: 'La banquise de Notos',
       material_en: 'marble',
       material_fr: 'marble',
-      size: '',
-      date: '2023'
-    },
-    {
-      type: 'image',
-      file: 'jules-bouchier-vegis--bureau-01--2.jpg',
-      title_en: 'Bureau-01',
-      title_fr: 'Desk-01',
-      material_en: 'marble',
-      material_fr: 'marble',
-      size: '',
-      date: '2023'
-    },
-    {
-      type: 'image',
-      file: 'jules-bouchier-vegis--extravaganza-suspiria-1.png',
-      title_en: 'Extravagenza Suspiria',
-      title_fr: 'Extravagenza Suspiria',
-      material_en: 'marble,',
-      material_fr: 'marble,',
-      size: '',
-      date: '2023'
-    },
-    {
-      type: 'image',
-      file: 'jules-bouchier-vegis--extravaganza-suspiria-2.png',
-      title_en: 'Extravagenza Suspiria',
-      title_fr: 'Extravagenza Suspiria',
-      material_en: 'marble,',
-      material_fr: 'marble,',
-      size: '',
-      date: '2023'
-    },
-    {
-      type: 'image',
-      file: 'jules-bouchier-vegis--extravaganza-suspiria-3.jpg',
-      title_en: 'Extravagenza Suspiria',
-      title_fr: 'Extravagenza Suspiria',
-      material_en: 'marble,',
-      material_fr: 'marble,',
-      size: '',
-      date: '2023'
-    },
-    {
-      type: 'image',
-      file: 'jules-bouchier-vegis--la-banquise-de-notos--1.jpg',
-      title_en: 'La banquise de Notos',
-      title_fr: 'La banquise de Notos',
-      material_en: 'marble,',
-      material_fr: 'marble,',
-      size: '',
-      date: '2023'
-    },
-    {
-      type: 'image',
-      file: 'jules-bouchier-vegis--la-banquise-de-notos--2.jpg',
-      title_en: 'La banquise de Notos',
-      title_fr: 'La banquise de Notos',
-      material_en: 'marble,',
-      material_fr: 'marble,',
-      size: '',
-      date: '2023'
-    },
-    {
-      type: 'image',
-      file: 'jules-bouchier-vegis--la-banquise-de-notos--3.jpg',
-      title_en: 'La banquise de Notos',
-      title_fr: 'La banquise de Notos',
-      material_en: 'marble,',
-      material_fr: 'marble,',
       size: '',
       date: '2023'
     }
@@ -162,10 +78,18 @@ function changeMedia () {
 
   // Update captions
   $('.caption > h3.en_lang').html(
-    `<span class="title">${randomMedia.title_en}</span>, ${randomMedia.material_en} ${randomMedia.size} ${randomMedia.date}`
+    `<span class="title">${randomMedia.title_en}</span>${buildLine(
+      randomMedia.material_en,
+      randomMedia.size,
+      randomMedia.date
+    )}`
   )
   $('.caption > h3.fr_lang').html(
-    `<span class="title">${randomMedia.title_fr}</span>, ${randomMedia.material_fr} ${randomMedia.size} ${randomMedia.date}`
+    `<span class="title">${randomMedia.title_fr}</span>${buildLine(
+      randomMedia.material_fr,
+      randomMedia.size,
+      randomMedia.date
+    )}`
   )
 }
 
