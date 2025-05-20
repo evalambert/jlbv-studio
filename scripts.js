@@ -49,6 +49,16 @@ function changeMedia () {
       size: '',
       date: '2023'
     }
+    {
+      type: 'image',
+      file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747745173/jules-belvega--bureau-001--2024-1-ld_whzubw.jpg',
+      title_en: 'La banquise de Notos',
+      title_fr: 'La banquise de Notos',
+      material_en: 'marble',
+      material_fr: 'marble',
+      size: '',
+      date: '2023'
+    }
   ]
 
   let randomIndex
