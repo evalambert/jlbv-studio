@@ -48,7 +48,7 @@ function changeMedia () {
       material_fr: 'marble',
       size: '',
       date: '2023'
-    }
+    },
     {
       type: 'image',
       file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747745173/jules-belvega--bureau-001--2024-1-ld_whzubw.jpg',
