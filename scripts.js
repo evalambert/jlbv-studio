@@ -31,7 +31,7 @@ function changeMedia () {
     },
     {
       type: 'image',
-      file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747745170/jules-belvega--botch-01-brussels--2023-3-ld_ov4r5j.jpg',
+      file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747745173/jules-belvega--bureau-001--2024-1-ld_whzubw.jpg',
       title_en: 'Balaguere',
       title_fr: 'Balaguere',
       material_en: 'marble',
@@ -41,7 +41,7 @@ function changeMedia () {
     },
     {
       type: 'image',
-      file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747745173/jules-belvega--bureau-001--2024-1-ld_whzubw.jpg',
+      file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747745171/jules-belvega--collectible-brussels--2023-6-ld_g08rsb.jpg',
       title_en: 'La banquise de Notos',
       title_fr: 'La banquise de Notos',
       material_en: 'marble',
@@ -51,7 +51,7 @@ function changeMedia () {
     },
     {
       type: 'image',
-      file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747745173/jules-belvega--bureau-001--2024-1-ld_whzubw.jpg',
+      file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747745170/jules-belvega--collectible-brussels--2023-3-ld_ehpdym.jpg',
       title_en: 'La banquise de Notos',
       title_fr: 'La banquise de Notos',
       material_en: 'marble',
