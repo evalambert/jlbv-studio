@@ -379,16 +379,14 @@ h2 {
   word-wrap: break-word;
 }
 
-
 .caption .legende p {
   display: inline;
   white-space: normal;
 }
 
-.caption strong{
+.caption strong {
   font-style: italic;
 }
-
 
 @media screen and (max-width: 900px) {
   .caption .legende {
@@ -490,4 +488,12 @@ h2 {
     padding-right: 10px;
     width: 60px;
   }
+}
+
+.wrapper-contact,
+.caption,
+.caption * {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none; 
 }
