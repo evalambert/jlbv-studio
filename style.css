@@ -371,15 +371,18 @@ h2 {
 /* LÉGENDES ///////////////////////////////*/
 .caption {
   padding: 20px;
-  text-align: justify;
+  text-align: center;
   text-justify: inter-word;
   hyphens: auto;
   -moz-hyphens: auto;
   font-size: 11px;
+  max-width: 100%;
+  box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
 }
-h3 {
-  white-space: nowrap;
-}
+
 @media screen and (max-width: 900px) {
   .caption {
     font-size: 8px;
