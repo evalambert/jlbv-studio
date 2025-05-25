@@ -2,7 +2,7 @@
 const media = [
   {
     type: 'video',
-    file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747409/jules-belvega--stupeur-bleu-2022_lhqmdp.mp4',
+    file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1748211016/jules-belvega--stupeur-bleu-2022_lhqmdp_mna6g7.webm',
     title_en: 'Stupeur bleue',
     title_fr: 'Stupeur bleue',
     material_en: 'marble 35x25cm',
@@ -12,7 +12,7 @@ const media = [
   },
   {
     type: 'video',
-    file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747408/jules-belvega--stupeur-chair--2022_phd4sv.mp4',
+    file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1748211019/jules-belvega--stupeur-chair--2022_phd4sv_e15ey4.webm',
     title_en: 'Stupeur chair',
     title_fr: 'Stupeur chair',
     material_en: 'marble 50x17cm',
@@ -22,7 +22,7 @@ const media = [
   },
   {
     type: 'video',
-    file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747407/jules-belvega--stupeur-noir--2022_hbq3zt.mp4',
+    file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1748211018/jules-belvega--stupeur-noir--2022_hbq3zt_gycoug.webm',
     title_en: 'Stupeur noire',
     title_fr: 'Stupeur noire',
     material_en: 'marble 30x20cm',
@@ -32,7 +32,7 @@ const media = [
   },
   {
     type: 'video',
-    file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747411/jules-belvega--stupeur-rouge--2022_dxccgk.mp4',
+    file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1748211018/jules-belvega--stupeur-noir--2022_hbq3zt_gycoug.webm',
     title_en: 'Stupeur rouge',
     title_fr: 'Stupeur rouge',
     material_en: 'marble 25x25cm',
