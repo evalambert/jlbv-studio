@@ -5,8 +5,8 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747409/jules-belvega--stupeur-bleu-2022_lhqmdp.mp4',
     title_en: 'Stupeur bleue',
     title_fr: 'Stupeur bleue',
-    material_en: 'marble',
-    material_fr: 'marbre [35x25cm]',
+    material_en: 'marble 35x25cm',
+    material_fr: 'marbre 35x25cm',
     size: '',
     date: '2022'
   },
@@ -15,8 +15,8 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747408/jules-belvega--stupeur-chair--2022_phd4sv.mp4',
     title_en: 'Stupeur chair',
     title_fr: 'Stupeur chair',
-    material_en: 'marble',
-    material_fr: 'marbre [50x17cm]',
+    material_en: 'marble 50x17cm',
+    material_fr: 'marbre 50x17cm',
     size: '',
     date: '2022'
   },
@@ -25,8 +25,8 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747407/jules-belvega--stupeur-noir--2022_hbq3zt.mp4',
     title_en: 'Stupeur noire',
     title_fr: 'Stupeur noire',
-    material_en: 'marble',
-    material_fr: 'marbre [30x20cm]',
+    material_en: 'marble 30x20cm',
+    material_fr: 'marbre 30x20cm',
     size: '',
     date: '2022'
   },
@@ -35,7 +35,7 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747411/jules-belvega--stupeur-rouge--2022_dxccgk.mp4',
     title_en: 'Stupeur rouge',
     title_fr: 'Stupeur rouge',
-    material_en: 'marble',
+    material_en: 'marble 25x25cm',
     material_fr: 'marbre 25x25cm',
     size: '',
     date: '2022'
@@ -57,7 +57,7 @@ const media = [
     title_fr: 'Balaguère',
     material_en: '',
     material_fr: '',
-    size: '110x55x43cm',
+    size: '',
     date: '2025'
   },
   {
@@ -67,7 +67,7 @@ const media = [
     title_fr: 'Chaise Suspiria x Belalbatros',
     material_en: 'Botch-1, Brussels',
     material_fr: 'Botch-1, Bruxelles',
-    size: '',
+    size: '60x50x80cm',
     date: '2023'
   },
   {
@@ -846,18 +846,18 @@ function changeMedia () {
   }
 
   $('.caption > .legende.en_lang').html(
-    `<h3 class="title">${currentMedia.title_en}
-
-    ${buildLine(currentMedia.material_en, currentMedia.size, currentMedia.date)}
-    </h3>
-`
+    `<p><strong>${currentMedia.title_en}</strong>${buildLine(
+      currentMedia.material_en,
+      currentMedia.size,
+      currentMedia.date
+    )}</p>`
   )
   $('.caption > .legende.fr_lang').html(
-    `<h3 class="title">${currentMedia.title_fr}
-
-    ${buildLine(currentMedia.material_fr, currentMedia.size, currentMedia.date)}
-</h3>
-    `
+    `<p><strong>${currentMedia.title_fr}</strong>${buildLine(
+      currentMedia.material_fr,
+      currentMedia.size,
+      currentMedia.date
+    )}</p>`
   )
 }
 
