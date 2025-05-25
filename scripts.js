@@ -212,12 +212,12 @@ const media = [
   },
   {
     type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1748194242/jules-belvega--darwin-15--2024-8_vslpou.jpg',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1748195696/jules-belvega--darwin-15--2024-8_tsti3w.jpg',
     title_en: 'Suspiria Corner Shelf',
     title_en: 'Suspiria étagère d’angle',
     material_en: 'Darwin 15 Brussels',
     material_fr: 'Darwin 15 Bruxelles',
-    size: '60x45x43cm',
+    size: '',
     date: '2024'
   },
   {
@@ -262,7 +262,7 @@ const media = [
   },
   {
     type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1748194238/jules-belvega--extravaganza-suspiria--2024-13_loi7rg.jpg',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1748195514/jules-belvega--extravaganza-suspiria--2024-13_lbb38s.jpg',
     title_en: 'Extravagenza Suspiria Bench',
     title_fr: 'Extravagenza Suspiria Bench',
     material_en: 'La maison de la chapelle',
