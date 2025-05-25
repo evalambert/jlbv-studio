@@ -235,7 +235,6 @@ video.fade-out {
   transition: opacity 0.2s ease;
   opacity: 1;
 }
-
 .image.fade-out {
   opacity: 0;
 }
@@ -263,10 +262,6 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-}
-nav .contact {
-  padding: 0 20px 0;
-  text-align: center;
 }
 .title {
   display: flex;
@@ -329,23 +324,20 @@ h2 {
     text-align: center;
     white-space: nowrap;
   }
-  nav .contact {
-    padding: 0 10px 0;
-  }
   .contact {
     font-size: 8px;
   }
 }
 /* BTN (FR-EN) ///////////////////////////////*/
 #lang-switch {
+  width: 100px;
+  padding-left: 20px;
   cursor: pointer;
-  display: flex;
-  flex-direction: row;
 }
-#lang-switch p {
+#lang-switch span {
   transition: all 0.5s;
 }
-#lang-switch p:hover {
+#lang-switch span:hover {
   cursor: pointer;
   opacity: 1;
 }
@@ -369,6 +361,13 @@ h2 {
   color: lightgrey;
   transition: all 0.5s;
 }
+
+@media screen and (max-width: 768px) {
+  #lang-switch {
+    padding-left: 10px;
+    width: 60px;
+  }
+}
 /* LÉGENDES ///////////////////////////////*/
 .caption {
   padding: 20px;
@@ -378,11 +377,15 @@ h2 {
   -moz-hyphens: auto;
   font-size: 11px;
 }
+h3 {
+  white-space: nowrap;
+}
 @media screen and (max-width: 900px) {
   .caption {
     font-size: 8px;
   }
 }
+
 /* WRAPPER-INFOS ///////////////////////////////*/
 .infos {
   position: fixed;
@@ -441,6 +444,12 @@ h2 {
   height: 50px;
   width: 50px;
 }
+#infos-open {
+  width: 100px;
+  text-align: right;
+  padding-right: 20px;
+}
+
 .btn-close {
   padding: 20px;
 }
@@ -463,4 +472,11 @@ h2 {
 
 .btn-close:hover > svg path {
   stroke: lightgrey;
+}
+
+@media screen and (max-width: 768px) {
+  #infos-open {
+    padding-right: 10px;
+    width: 60px;
+  }
 }

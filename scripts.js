@@ -6,17 +6,17 @@ const media = [
     title_en: 'Stupeur bleue',
     title_fr: 'Stupeur bleue',
     material_en: 'marble',
-    material_fr: 'marble',
-    size: '35x25cm',
+    material_fr: 'marbre [35x25cm]',
+    size: '',
     date: '2022'
   },
   {
     type: 'video',
     file: 'https://res.cloudinary.com/dyc6vnymg/video/upload/v1747747408/jules-belvega--stupeur-chair--2022_phd4sv.mp4',
-    title_en: 'Stupeur chaire',
-    title_fr: 'Stupeur chaire',
+    title_en: 'Stupeur chair',
+    title_fr: 'Stupeur chair',
     material_en: 'marble',
-    material_fr: 'marble',
+    material_fr: 'marbre [50x17cm]',
     size: '',
     date: '2022'
   },
@@ -26,7 +26,7 @@ const media = [
     title_en: 'Stupeur noire',
     title_fr: 'Stupeur noire',
     material_en: 'marble',
-    material_fr: 'marble',
+    material_fr: 'marbre [30x20cm]',
     size: '',
     date: '2022'
   },
@@ -36,8 +36,8 @@ const media = [
     title_en: 'Stupeur rouge',
     title_fr: 'Stupeur rouge',
     material_en: 'marble',
-    material_fr: 'marble',
-    size: '25x25cm',
+    material_fr: 'marbre 25x25cm',
+    size: '',
     date: '2022'
   },
   {
@@ -47,7 +47,7 @@ const media = [
     title_fr: 'Balaguère',
     material_en: '',
     material_fr: '',
-    size: '',
+    size: '110x55x43cm',
     date: '2025'
   },
   {
@@ -57,36 +57,26 @@ const media = [
     title_fr: 'Balaguère',
     material_en: '',
     material_fr: '',
-    size: '',
+    size: '110x55x43cm',
     date: '2025'
   },
   {
     type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749968/jules-belvega--botch-01-brussels--2023-1_d93eed.jpg',
-    title_en: 'Stupeur bleue',
-    title_fr: 'Stupeur bleue',
-    material_en: 'Botch-1 Brussels',
-    material_fr: 'Botch-1 Bruxelles',
-    size: '',
-    date: '2023'
-  },
-  {
-    type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749968/jules-belvega--botch-01-brussels--2023-2_sls4je.jpg',
-    title_en: 'Stupeur bleue',
-    title_fr: 'Stupeur bleue',
-    material_en: 'Botch-1 Brussels',
-    material_fr: 'Botch-1 Bruxelles',
+    title_en: 'Suspiria chair x Belalbatros',
+    title_fr: 'Chaise Suspiria x Belalbatros',
+    material_en: 'Botch-1, Brussels',
+    material_fr: 'Botch-1, Bruxelles',
     size: '',
     date: '2023'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749968/jules-belvega--botch-01-brussels--2023-3_snqp4r.jpg',
-    title_en: 'Stupeur bleue',
-    title_fr: 'Stupeur bleue',
-    material_en: 'Botch-1 Brussels',
-    material_fr: 'Botch-1 Bruxelles',
+    title_en: 'Botch-1 Exhibiton',
+    title_fr: 'Botch-1',
+    material_en: 'Brussels',
+    material_fr: 'Bruxelles',
     size: '',
     date: '2023'
   },
@@ -95,16 +85,26 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749968/jules-belvega--botch-01-brussels--2023-4_yefges.jpg',
     title_en: 'Suspiria chaire',
     title_fr: 'Suspiria chaire',
-    material_en: 'Botch-1 Brussels',
-    material_fr: 'Botch-1 Bruxelles',
-    size: '',
+    material_en: 'Botch-1, Brussels',
+    material_fr: 'Botch-1, Bruxelles',
+    size: '60x50x80cm',
     date: '2023'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749969/jules-belvega--bureau-001--2024-1_rmqfb5.jpg',
-    title_en: 'Bureau 001',
-    title_fr: 'Bureau 001',
+    title_en: 'Cœur sanglant',
+    title_fr: 'Cœur sanglant',
+    material_en: '',
+    material_fr: '',
+    size: '130x75x70cm',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1748194248/jules-belvega--bureau-001--2024-5_qpzzco.jpg',
+    title_en: 'Cœur sanglant',
+    title_fr: 'Cœur sanglant',
     material_en: '',
     material_fr: '',
     size: '',
@@ -113,8 +113,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749969/jules-belvega--bureau-001--2024-3_di2edd.jpg',
-    title_en: 'Bureau 001',
-    title_fr: 'Bureau 001',
+    title_en: 'Cœur sanglant',
+    title_fr: 'Cœur sanglant',
     material_en: '',
     material_fr: '',
     size: '',
@@ -123,8 +123,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749969/jules-belvega--bureau-001--2024-4_kr6mfg.jpg',
-    title_en: 'Bureau 001',
-    title_fr: 'Bureau 001',
+    title_en: 'Cœur sanglant',
+    title_fr: 'Cœur sanglant',
     material_en: '',
     material_fr: '',
     size: '',
@@ -132,31 +132,11 @@ const media = [
   },
   {
     type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749969/jules-belvega--collectible-brussels--2023-1_e3uts0.jpg',
-    title_en: 'Stupeurs',
-    title_fr: 'Stupeurs',
-    material_en: 'Collectible Brussels',
-    material_fr: 'Collectible Bruxelles',
-    size: '',
-    date: '2023'
-  },
-  {
-    type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749970/jules-belvega--collectible-brussels--2023-3_he1bxi.jpg',
-    title_en: 'Stupeur noire',
-    title_fr: 'Stupeur noire',
-    material_en: 'Collectible Brussels',
-    material_fr: 'Collectible Bruxelles',
-    size: '',
-    date: '2023'
-  },
-  {
-    type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749970/jules-belvega--collectible-brussels--2023-6_dwtyoe.jpg',
-    title_en: 'Stupeurs',
-    title_fr: 'Stupeurs',
-    material_en: 'Collectible Brussels',
-    material_fr: 'Collectible Bruxelles',
+    title_en: 'Stupeurs sculptures',
+    title_fr: 'Stupeurs sculptures',
+    material_en: 'Collectible Fair Brussels',
+    material_fr: 'Collectible Fair Bruxelles',
     size: '',
     date: '2023'
   },
@@ -165,38 +145,48 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749970/jules-belvega--collectible-brussels--2023-7_cxjsyv.jpg',
     title_en: 'Stupeur chair',
     title_fr: 'Stupeur chair',
-    material_en: 'Collectible Brussels',
-    material_fr: 'Collectible Bruxelles',
+    material_en: 'Collectible Fair Brussels',
+    material_fr: 'Collectible Fair Bruxelles',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749969/jules-belvega--collectible-brussels--2023-1_e3uts0.jpg',
+    title_en: 'Stupeurs sculptures',
+    title_fr: 'Stupeurs sculptures',
+    material_en: 'Collectible Fair Brussels',
+    material_fr: 'Collectible Fair Bruxelles',
     size: '',
     date: '2023'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749972/jules-belvega--darwin-15--2024-2_nfyfqk.jpg',
-    title_en: 'Totem vert',
-    title_fr: 'Totem vert',
-    material_en: 'Darwin 15, Brussels',
-    material_fr: 'Darwin 15, Bruxelles',
+    title_en: 'Stupeurs sculptures',
+    title_fr: 'Stupeurs sculptures',
+    material_en: 'Darwin 15 Brussels',
+    material_fr: 'Darwin 15 Bruxelles',
     size: '',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749972/jules-belvega--darwin-15--2024-3_erhapp.jpg',
-    title_en: 'Totem vert',
-    title_fr: 'Totem vert',
-    material_en: 'Darwin 15, Brussels',
-    material_fr: 'Darwin 15, Bruxelles',
+    title_en: 'Stupeurs sculptures',
+    title_fr: 'Stupeurs sculptures',
+    material_en: 'Darwin 15 Brussels',
+    material_fr: 'Darwin 15 Bruxelles',
     size: '',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749972/jules-belvega--darwin-15--2024-4_ea3iey.jpg',
-    title_en: 'Totem vert',
-    title_fr: 'Totem vert',
-    material_en: 'Darwin 15, Brussels',
-    material_fr: 'Darwin 15, Bruxelles',
+    title_en: 'Stupeur blue',
+    title_fr: 'Stupeur bleue',
+    material_en: 'Darwin 15 Brussels',
+    material_fr: 'Darwin 15 Bruxelles',
     size: '',
     date: '2024'
   },
@@ -205,28 +195,38 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749971/jules-belvega--darwin-15--2024-6_u66gzf.jpg',
     title_en: 'Totem vert',
     title_fr: 'Totem vert',
-    material_en: 'Darwin 15, Brussels',
-    material_fr: 'Darwin 15, Bruxelles',
+    material_en: 'Darwin 15 Brussels',
+    material_fr: 'Darwin 15 Bruxelles',
     size: '',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749971/jules-belvega--darwin-15--2024-7_zsgmc4.jpg',
-    title_en: 'Totem vert',
-    title_fr: 'Totem vert',
-    material_en: 'Darwin 15, Brussels',
-    material_fr: 'Darwin 15, Bruxelles',
-    size: '',
+    title_en: 'Suspiria Corner Shelf',
+    title_en: 'Suspiria étagère d’angle',
+    material_en: 'Darwin 15 Brussels',
+    material_fr: 'Darwin 15 Bruxelles',
+    size: '60x45x43cm',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1748194242/jules-belvega--darwin-15--2024-8_vslpou.jpg',
+    title_en: 'Suspiria Corner Shelf',
+    title_en: 'Suspiria étagère d’angle',
+    material_en: 'Darwin 15 Brussels',
+    material_fr: 'Darwin 15 Bruxelles',
+    size: '60x45x43cm',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749974/jules-belvega--extravaganza-suspiria--2024-10_ebenqo.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
-    material_en: '',
-    material_fr: '',
+    title_en: 'Extravagenza Suspiria CH02',
+    title_fr: 'Extravagenza Suspiria CH02',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
     size: '',
     date: '2024'
   },
@@ -235,8 +235,8 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749975/jules-belvega--extravaganza-suspiria--2024-11_qld4ke.jpg',
     title_en: 'Extravagenza Suspiria',
     title_fr: 'Extravagenza Suspiria',
-    material_en: '',
-    material_fr: '',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
     size: '',
     date: '2024'
   },
@@ -245,8 +245,8 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749975/jules-belvega--extravaganza-suspiria--2024-12_icmcbv.jpg',
     title_en: 'Extravagenza Suspiria',
     title_fr: 'Extravagenza Suspiria',
-    material_en: '',
-    material_fr: '',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
     size: '',
     date: '2024'
   },
@@ -255,69 +255,79 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749973/jules-belvega--extravaganza-suspiria--2024-1_waxuh7.jpg',
     title_en: 'Extravagenza Suspiria',
     title_fr: 'Extravagenza Suspiria',
-    material_en: '',
-    material_fr: '',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1748194238/jules-belvega--extravaganza-suspiria--2024-13_loi7rg.jpg',
+    title_en: 'Extravagenza Suspiria Bench',
+    title_fr: 'Extravagenza Suspiria Bench',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
     size: '',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749972/jules-belvega--extravaganza-suspiria--2024-2_zxfjzp.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
-    material_en: '',
-    material_fr: '',
-    size: '',
+    title_en: 'Extravagenza Suspiria Bench',
+    title_fr: 'Extravagenza Suspiria Bench',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
+    size: '228x40x44cm',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749974/jules-belvega--extravaganza-suspiria--2024-3_nzmhpp.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
-    material_en: '',
-    material_fr: '',
+    title_en: 'Extravagenza Suspiria Bench',
+    title_fr: 'Extravagenza Suspiria Bench',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
     size: '',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749973/jules-belvega--extravaganza-suspiria--2024-5_fggbia.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
-    material_en: '',
-    material_fr: '',
-    size: '',
+    title_en: 'Extravagenza Suspiria CH01',
+    title_fr: 'Extravagenza Suspiria CH01',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
+    size: '52x56x89cm',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749975/jules-belvega--extravaganza-suspiria--2024-6_nxk57z.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
-    material_en: '',
-    material_fr: '',
+    title_en: 'Extravagenza Suspiria CH01',
+    title_fr: 'Extravagenza Suspiria CH01',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
     size: '',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749974/jules-belvega--extravaganza-suspiria--2024-8_tdrvvq.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
-    material_en: '',
-    material_fr: '',
+    title_en: 'Extravagenza Suspiria CH02',
+    title_fr: 'Extravagenza Suspiria CH02',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
     size: '',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749980/jules-belvega--extravaganza-suspiria--2024-9_y5rt1l.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
-    material_en: '',
-    material_fr: '',
-    size: '',
+    title_en: 'Extravagenza Suspiria CH02',
+    title_fr: 'Extravagenza Suspiria CH02',
+    material_en: 'La maison de la chapelle',
+    material_fr: 'La maison de la chapelle',
+    size: '52x56x89cm',
     date: '2024'
   },
   {
@@ -377,7 +387,7 @@ const media = [
     title_fr: 'La banquise de Notos',
     material_en: '',
     material_fr: '',
-    size: '',
+    size: '420x80x65cm',
     date: '2025'
   },
   {
@@ -427,6 +437,16 @@ const media = [
     title_fr: 'La porte des abysses',
     material_en: '',
     material_fr: '',
+    size: '160x110x80cm',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749981/jules-belvega--porte-des-abysses--2025-3_hooyy7.jpg',
+    title_en: 'La porte des abysses',
+    title_fr: 'La porte des abysses',
+    material_en: '',
+    material_fr: '',
     size: '',
     date: '2025'
   },
@@ -444,9 +464,9 @@ const media = [
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749981/jules-belvega--suspiria-chair--mix-fox-brussels--2023-1_ru9s5t.jpg',
     title_en: 'Suspiria chair',
-    title_fr: 'Suspiria chaise',
-    material_en: 'Fox, Mix Brussels',
-    material_fr: 'Fox, Mix Bruxelles',
+    title_fr: 'Chaise Suspiria',
+    material_en: 'Fox Mix Brussels',
+    material_fr: 'Fox Mix Bruxelles',
     size: '',
     date: '2023'
   },
@@ -454,9 +474,9 @@ const media = [
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749983/jules-belvega--suspiria-chair--mix-fox-brussels--2023-3_pohuqs.jpg',
     title_en: 'Suspiria chair',
-    title_fr: 'Suspiria chaise',
-    material_en: 'Fox, Mix Brussels',
-    material_fr: 'Fox, Mix Bruxelles',
+    title_fr: 'Chaise Suspiria',
+    material_en: 'Fox Mix Brussels',
+    material_fr: 'Fox Mix Bruxelles',
     size: '',
     date: '2023'
   },
@@ -464,9 +484,9 @@ const media = [
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749983/jules-belvega--suspiria-chair--mix-fox-brussels--2023-4_uxnkpe.jpg',
     title_en: 'Suspiria chair',
-    title_fr: 'Suspiria chaise',
-    material_en: 'Fox, Mix Brussels',
-    material_fr: 'Fox, Mix Bruxelles',
+    title_fr: 'Chaise Suspiria',
+    material_en: 'Fox Mix Brussels',
+    material_fr: 'Fox Mix Bruxelles',
     size: '',
     date: '2023'
   },
@@ -474,9 +494,9 @@ const media = [
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749984/jules-belvega--suspiria-chair--mix-fox-brussels--2023-5_hmmske.jpg',
     title_en: 'Suspiria chair',
-    title_fr: 'Suspiria chaise',
-    material_en: 'Fox, Mix Brussels',
-    material_fr: 'Fox, Mix Bruxelles',
+    title_fr: 'Chaise Suspiria',
+    material_en: 'Fox Mix Brussels',
+    material_fr: 'Fox Mix Bruxelles',
     size: '',
     date: '2023'
   },
@@ -484,7 +504,7 @@ const media = [
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749983/jules-belvega--suspiria-chair--mix-fox-brussels--2023-6_gzfvzw.jpg',
     title_en: 'Suspiria chair',
-    title_fr: 'Suspiria chaise',
+    title_fr: 'Chaise Suspiria',
     material_en: 'Fox, Mix Brussels',
     material_fr: 'Fox, Mix Bruxelles',
     size: '',
@@ -493,8 +513,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749984/jules-belvega--suspiria-stool--2024-1_lxn3xp.jpg',
-    title_en: 'Suspiria stool',
-    title_fr: 'Suspiria tabouret',
+    title_en: 'Suspiria Stool',
+    title_fr: 'Tabouret Suspiria',
     material_en: '',
     material_fr: '',
     size: '',
@@ -502,9 +522,29 @@ const media = [
   },
   {
     type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749984/jules-belvega--suspiria-stool--2024-5_vh2cos.jpg',
+    title_en: 'Suspiria Stool',
+    title_fr: 'Tabouret Suspiria',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749984/jules-belvega--suspiria-stool--2024-4_kl8ziq.jpg',
+    title_en: 'Suspiria Stool',
+    title_fr: 'Tabouret Suspiria',
+    material_en: '',
+    material_fr: '',
+    size: '35x35x43cm',
+    date: '2024'
+  },
+  {
+    type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--suspiria-stool--2024-2_kh39nw.jpg',
-    title_en: 'Suspiria stool',
-    title_fr: 'Suspiria tabouret',
+    title_en: 'Suspiria Stool',
+    title_fr: 'Tabouret Suspiria',
     material_en: '',
     material_fr: '',
     size: '',
@@ -513,28 +553,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749984/jules-belvega--suspiria-stool--2024-3_nbicsb.jpg',
-    title_en: 'Suspiria stool',
-    title_fr: 'Suspiria tabouret',
-    material_en: '',
-    material_fr: '',
-    size: '',
-    date: '2024'
-  },
-  {
-    type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--suspiria-stool--2024-2_kh39nw.jpg',
-    title_en: 'Suspiria stool',
-    title_fr: 'Suspiria tabouret',
-    material_en: '',
-    material_fr: '',
-    size: '',
-    date: '2024'
-  },
-  {
-    type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--suspiria-stool--2024-2_kh39nw.jpg',
-    title_en: 'Suspiria stool',
-    title_fr: 'Suspiria tabouret',
+    title_en: 'Suspiria Stool',
+    title_fr: 'Tabouret Suspiria',
     material_en: '',
     material_fr: '',
     size: '',
@@ -544,11 +564,11 @@ const media = [
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--suspiria-wip--2023-1_q16dqs.jpg',
     title_en: 'Suspiria chair',
-    title_fr: 'Suspiria chaise',
-    material_en: 'Wip',
-    material_fr: 'Wip',
+    title_fr: 'Chaise Suspiria',
+    material_en: '',
+    material_fr: '',
     size: '',
-    date: '2024'
+    date: '2023'
   },
   {
     type: 'image',
@@ -558,7 +578,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -568,7 +588,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -578,7 +598,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -588,7 +608,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -598,7 +618,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -608,7 +628,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -618,7 +638,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -628,7 +648,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -636,9 +656,8 @@ const media = [
     title_en: 'The Machiavellian Eye',
     title_fr: 'The Machiavellian Eye',
     material_en: '',
-    material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -648,7 +667,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -658,7 +677,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -667,8 +686,8 @@ const media = [
     title_fr: 'The Machiavellian Eye',
     material_en: '',
     material_fr: '',
-    size: '',
-    date: '2024'
+    size: '150x110x90cm',
+    date: '2025'
   },
   {
     type: 'image',
@@ -678,7 +697,7 @@ const media = [
     material_en: '',
     material_fr: '',
     size: '',
-    date: '2024'
+    date: '2025'
   },
   {
     type: 'image',
@@ -687,32 +706,12 @@ const media = [
     title_fr: 'Totem vert',
     material_en: '',
     material_fr: '',
-    size: '',
-    date: '2023'
-  },
-  {
-    type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749990/jules-belvega--totem-vert--2023-1_ou5nkd.jpg',
-    title_en: 'Totem vert',
-    title_fr: 'Totem vert',
-    material_en: '',
-    material_fr: '',
-    size: '',
+    size: '70x35x30cm',
     date: '2023'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749991/jules-belvega--totem-vert--2023-2_l8p10x.jpg',
-    title_en: 'Totem vert',
-    title_fr: 'Totem vert',
-    material_en: '',
-    material_fr: '',
-    size: '',
-    date: '2023'
-  },
-  {
-    type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749990/jules-belvega--totem-vert--2023-3_oxmysl.jpg',
     title_en: 'Totem vert',
     title_fr: 'Totem vert',
     material_en: '',
@@ -742,21 +741,11 @@ const media = [
   },
   {
     type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749992/jules-belvega--totem-vert--2023-9_doohi7.jpg',
-    title_en: 'Totem vert',
-    title_fr: 'Totem vert',
-    material_en: '',
-    material_fr: '',
-    size: '',
-    date: '2023'
-  },
-  {
-    type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749992/jules-belvega--wait-here-brussels--2024-1_jna0u2.jpg',
-    title_en: 'Suspiria chair',
-    title_fr: 'Suspiria chaise',
-    material_en: 'Wait Here, Brussels',
-    material_fr: 'Wait Here, Bruxelles',
+    title_en: 'Suspiria Stool',
+    title_fr: 'Chaise Suspiria',
+    material_en: 'Wait Here Brussels',
+    material_fr: 'Wait Here Bruxelles',
     size: '',
     date: '2024'
   },
@@ -765,8 +754,8 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749994/jules-belvega--wait-here-brussels--2024-2_xfa9wl.jpg',
     title_en: 'Fleur de lave',
     title_fr: 'Fleur de lave',
-    material_en: 'Wait Here, Brussels',
-    material_fr: 'Wait Here, Bruxelles',
+    material_en: 'Wait Here Brussels',
+    material_fr: 'Wait Here Bruxelles',
     size: '',
     date: '2024'
   },
@@ -774,10 +763,10 @@ const media = [
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749992/jules-belvega--wait-here-brussels--2024-3_cseka2.jpg',
     title_en: 'Suspiria chair',
-    title_fr: 'Suspiria chaise',
-    material_en: 'Wait Here, Brussels',
-    material_fr: 'Wait Here, Bruxelles',
-    size: '',
+    title_fr: 'Chaise Suspiria',
+    material_en: 'Wait Here Brussels',
+    material_fr: 'Wait Here Bruxelles',
+    size: '60x50x80cm',
     date: '2024'
   },
   {
@@ -785,28 +774,28 @@ const media = [
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749993/jules-belvega--wait-here-brussels--2024-4_vdrgae.jpg',
     title_en: 'Fleur de lave',
     title_fr: 'Fleur de lave',
-    material_en: 'Wait Here, Brussels',
-    material_fr: 'Wait Here, Bruxelles',
-    size: '',
+    material_en: 'Wait Here Brussels',
+    material_fr: 'Wait Here Bruxelles',
+    size: '52x27x22cm',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749993/jules-belvega--wait-here-brussels--2024-5_evlggt.jpg',
-    title_en: 'Suspiria chair',
-    title_fr: 'Suspiria chaise',
+    title_en: 'Suspiria chair x Belalbatros',
+    title_fr: 'Chaise Suspiria x Belalbatros',
     material_en: 'Wait Here, Brussels',
     material_fr: 'Wait Here, Bruxelles',
-    size: '',
+    size: '60x50x80cm',
     date: '2024'
   },
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749994/jules-belvega--wait-here-brussels--2024-6_eyd8x3.jpg',
-    title_en: '',
-    title_fr: '',
-    material_en: 'Wait Here, Brussels',
-    material_fr: 'Wait Here, Bruxelles',
+    title_en: 'Wait Here',
+    title_fr: 'Wait Here',
+    material_en: 'Brussels',
+    material_fr: 'Bruxelles',
     size: '',
     date: '2024'
   }
@@ -856,19 +845,19 @@ function changeMedia () {
     imageElem.src = currentMedia.file
   }
 
-  $('.caption > h3.en_lang').html(
-    `<span class="title">${currentMedia.title_en}</span>${buildLine(
-      currentMedia.material_en,
-      currentMedia.size,
-      currentMedia.date
-    )}`
+  $('.caption > .legende.en_lang').html(
+    `<h3 class="title">${currentMedia.title_en}
+
+    ${buildLine(currentMedia.material_en, currentMedia.size, currentMedia.date)}
+    </h3>
+`
   )
-  $('.caption > h3.fr_lang').html(
-    `<span class="title">${currentMedia.title_fr}</span>${buildLine(
-      currentMedia.material_fr,
-      currentMedia.size,
-      currentMedia.date
-    )}`
+  $('.caption > .legende.fr_lang').html(
+    `<h3 class="title">${currentMedia.title_fr}
+
+    ${buildLine(currentMedia.material_fr, currentMedia.size, currentMedia.date)}
+</h3>
+    `
   )
 }
 
