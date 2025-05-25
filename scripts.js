@@ -322,14 +322,494 @@ const media = [
   },
   {
     type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749980/jules-belvega--extravaganza-suspiria--2024-9_y5rt1l.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749980/jules-belvega--la-banquise-de-notos--2025-10_mcihst.jpg',
+    title_en: 'La banquise de Notos',
+    title_fr: 'La banquise de Notos',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749975/jules-belvega--la-banquise-de-notos--2025-1_nsxxmg.jpg',
+    title_en: 'La banquise de Notos',
+    title_fr: 'La banquise de Notos',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749977/jules-belvega--la-banquise-de-notos--2025-2_ywijqp.jpg',
+    title_en: 'La banquise de Notos',
+    title_fr: 'La banquise de Notos',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749976/jules-belvega--la-banquise-de-notos--2025-3_wfkhbs.jpg',
+    title_en: 'La banquise de Notos',
+    title_fr: 'La banquise de Notos',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749978/jules-belvega--la-banquise-de-notos--2025-4_z33lqy.jpg',
+    title_en: 'La banquise de Notos',
+    title_fr: 'La banquise de Notos',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749980/jules-belvega--la-banquise-de-notos--2025-5_t2nf2q.jpg',
+    title_en: 'La banquise de Notos',
+    title_fr: 'La banquise de Notos',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749982/jules-belvega--la-banquise-de-notos--2025-6_zhvoxn.jpg',
+    title_en: 'La banquise de Notos',
+    title_fr: 'La banquise de Notos',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749978/jules-belvega--la-banquise-de-notos--2025-7_iehfzf.jpg',
+    title_en: 'La banquise de Notos',
+    title_fr: 'La banquise de Notos',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749979/jules-belvega--la-banquise-de-notos--2025-8_zyb6u8.jpg',
+    title_en: 'La banquise de Notos',
+    title_fr: 'La banquise de Notos',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749979/jules-belvega--la-banquise-de-notos--2025-9_paz0et.jpg',
+    title_en: 'La banquise de Notos',
+    title_fr: 'La banquise de Notos',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749980/jules-belvega--porte-des-abysses--2025-1_mojcde.jpg',
+    title_en: 'La porte des abysses',
+    title_fr: 'La porte des abysses',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749981/jules-belvega--porte-des-abysses--2025-2_v3tc2y.jpg',
+    title_en: 'La porte des abysses',
+    title_fr: 'La porte des abysses',
+    material_en: 'Studio 1935',
+    material_fr: 'Studio 1935',
+    size: '',
+    date: '2025'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749981/jules-belvega--suspiria-chair--mix-fox-brussels--2023-1_ru9s5t.jpg',
+    title_en: 'Suspiria chair',
+    title_fr: 'Suspiria chaise',
+    material_en: 'Fox, Mix Brussels',
+    material_fr: 'Fox, Mix Bruxelles',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749983/jules-belvega--suspiria-chair--mix-fox-brussels--2023-3_pohuqs.jpg',
+    title_en: 'Suspiria chair',
+    title_fr: 'Suspiria chaise',
+    material_en: 'Fox, Mix Brussels',
+    material_fr: 'Fox, Mix Bruxelles',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749983/jules-belvega--suspiria-chair--mix-fox-brussels--2023-4_uxnkpe.jpg',
+    title_en: 'Suspiria chair',
+    title_fr: 'Suspiria chaise',
+    material_en: 'Fox, Mix Brussels',
+    material_fr: 'Fox, Mix Bruxelles',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749984/jules-belvega--suspiria-chair--mix-fox-brussels--2023-5_hmmske.jpg',
+    title_en: 'Suspiria chair',
+    title_fr: 'Suspiria chaise',
+    material_en: 'Fox, Mix Brussels',
+    material_fr: 'Fox, Mix Bruxelles',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749983/jules-belvega--suspiria-chair--mix-fox-brussels--2023-6_gzfvzw.jpg',
+    title_en: 'Suspiria chair',
+    title_fr: 'Suspiria chaise',
+    material_en: 'Fox, Mix Brussels',
+    material_fr: 'Fox, Mix Bruxelles',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749984/jules-belvega--suspiria-stool--2024-1_lxn3xp.jpg',
+    title_en: 'Suspiria stool',
+    title_fr: 'Suspiria tabouret',
     material_en: '',
     material_fr: '',
     size: '',
     date: '2024'
   },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--suspiria-stool--2024-2_kh39nw.jpg',
+    title_en: 'Suspiria stool',
+    title_fr: 'Suspiria tabouret',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749984/jules-belvega--suspiria-stool--2024-3_nbicsb.jpg',
+    title_en: 'Suspiria stool',
+    title_fr: 'Suspiria tabouret',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--suspiria-stool--2024-2_kh39nw.jpg',
+    title_en: 'Suspiria stool',
+    title_fr: 'Suspiria tabouret',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--suspiria-stool--2024-2_kh39nw.jpg',
+    title_en: 'Suspiria stool',
+    title_fr: 'Suspiria tabouret',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--suspiria-wip--2023-1_q16dqs.jpg',
+    title_en: 'Suspiria chair',
+    title_fr: 'Suspiria chaise',
+    material_en: 'Wip',
+    material_fr: 'Wip',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749988/jules-belvega--the-machiavellian-eye--2024-11_ltqmks.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749991/jules-belvega--the-machiavellian-eye--2024-12_khtpsc.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749990/jules-belvega--the-machiavellian-eye--2024-13_rgn5vn.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749990/jules-belvega--the-machiavellian-eye--2024-14_cy3shp.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749985/jules-belvega--the-machiavellian-eye--2024-1_akt4m0.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--the-machiavellian-eye--2024-2_tlh0wr.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749987/jules-belvega--the-machiavellian-eye--2024-3_wnba93.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--the-machiavellian-eye--2024-4_evrchw.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749987/jules-belvega--the-machiavellian-eye--2024-5_cviguf.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--the-machiavellian-eye--2024-4_evrchw.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749988/jules-belvega--the-machiavellian-eye--2024-7_bctubr.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749988/jules-belvega--the-machiavellian-eye--2024-8_l8r2ou.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749989/jules-belvega--the-machiavellian-eye--2024-9_se00le.jpg',
+    title_en: 'The Machiavellian Eye',
+    title_fr: 'The Machiavellian Eye',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749992/jules-belvega--totem-vert--2023-11_xerzgx.jpg',
+    title_en: 'Totem vert',
+    title_fr: 'Totem vert',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749990/jules-belvega--totem-vert--2023-1_ou5nkd.jpg',
+    title_en: 'Totem vert',
+    title_fr: 'Totem vert',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749991/jules-belvega--totem-vert--2023-2_l8p10x.jpg',
+    title_en: 'Totem vert',
+    title_fr: 'Totem vert',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749990/jules-belvega--totem-vert--2023-3_oxmysl.jpg',
+    title_en: 'Totem vert',
+    title_fr: 'Totem vert',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749991/jules-belvega--totem-vert--2023-5_zbqoij.jpg',
+    title_en: 'Totem vert',
+    title_fr: 'Totem vert',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749993/jules-belvega--totem-vert--2023-7_anulaf.jpg',
+    title_en: 'Totem vert',
+    title_fr: 'Totem vert',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749992/jules-belvega--totem-vert--2023-9_doohi7.jpg',
+    title_en: 'Totem vert',
+    title_fr: 'Totem vert',
+    material_en: '',
+    material_fr: '',
+    size: '',
+    date: '2023'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749992/jules-belvega--wait-here-brussels--2024-1_jna0u2.jpg',
+    title_en: 'Suspiria chair',
+    title_fr: 'Suspiria chaise',
+    material_en: 'Wait Here, Brussels',
+    material_fr: 'Wait Here, Bruxelles',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749994/jules-belvega--wait-here-brussels--2024-2_xfa9wl.jpg',
+    title_en: 'Fleur de lave',
+    title_fr: 'Fleur de lave',
+    material_en: 'Wait Here, Brussels',
+    material_fr: 'Wait Here, Bruxelles',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749992/jules-belvega--wait-here-brussels--2024-3_cseka2.jpg',
+    title_en: 'Suspiria chair',
+    title_fr: 'Suspiria chaise',
+    material_en: 'Wait Here, Brussels',
+    material_fr: 'Wait Here, Bruxelles',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749993/jules-belvega--wait-here-brussels--2024-4_vdrgae.jpg',
+    title_en: 'Fleur de lave',
+    title_fr: 'Fleur de lave',
+    material_en: 'Wait Here, Brussels',
+    material_fr: 'Wait Here, Bruxelles',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749993/jules-belvega--wait-here-brussels--2024-5_evlggt.jpg',
+    title_en: 'Suspiria chair',
+    title_fr: 'Suspiria chaise',
+    material_en: 'Wait Here, Brussels',
+    material_fr: 'Wait Here, Bruxelles',
+    size: '',
+    date: '2024'
+  },
+  {
+    type: 'image',
+    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749994/jules-belvega--wait-here-brussels--2024-6_eyd8x3.jpg',
+    title_en: '',
+    title_fr: '',
+    material_en: 'Wait Here, Brussels',
+    material_fr: 'Wait Here, Bruxelles',
+    size: '',
+    date: '2024'
+  }
 ]
 
 // VARIABLES POUR LE SYSTÈME DE BOUCLE ALÉATOIRE
