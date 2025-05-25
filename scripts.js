@@ -877,3 +877,4 @@ $(document).ready(function () {
     $('body').removeClass('info-is-opn')
   })
 })
+
