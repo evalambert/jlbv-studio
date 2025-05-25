@@ -63,7 +63,7 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749968/jules-belvega--botch-01-brussels--2023-2_sls4je.jpg',
-    title_en: 'Suspiria chair x Belalbatros',
+    title_en: 'Suspiria Chair x Belalbatros',
     title_fr: 'Chaise Suspiria x Belalbatros',
     material_en: 'Botch-1, Brussels',
     material_fr: 'Botch-1, Bruxelles',
@@ -83,8 +83,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749968/jules-belvega--botch-01-brussels--2023-4_yefges.jpg',
-    title_en: 'Suspiria chaire',
-    title_fr: 'Suspiria chaire',
+    title_en: 'Suspiria Chair',
+    title_fr: 'Chaise Suspiria',
     material_en: 'Botch-1, Brussels',
     material_fr: 'Botch-1, Bruxelles',
     size: '60x50x80cm',
@@ -152,16 +152,6 @@ const media = [
   },
   {
     type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749969/jules-belvega--collectible-brussels--2023-1_e3uts0.jpg',
-    title_en: 'Stupeurs sculptures',
-    title_fr: 'Stupeurs sculptures',
-    material_en: 'Collectible Fair Brussels',
-    material_fr: 'Collectible Fair Bruxelles',
-    size: '',
-    date: '2023'
-  },
-  {
-    type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749972/jules-belvega--darwin-15--2024-2_nfyfqk.jpg',
     title_en: 'Stupeurs sculptures',
     title_fr: 'Stupeurs sculptures',
@@ -183,7 +173,7 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749972/jules-belvega--darwin-15--2024-4_ea3iey.jpg',
-    title_en: 'Stupeur blue',
+    title_en: 'Stupeur bleue',
     title_fr: 'Stupeur bleue',
     material_en: 'Darwin 15 Brussels',
     material_fr: 'Darwin 15 Bruxelles',
@@ -223,8 +213,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749974/jules-belvega--extravaganza-suspiria--2024-10_ebenqo.jpg',
-    title_en: 'Extravagenza Suspiria CH02',
-    title_fr: 'Extravagenza Suspiria CH02',
+    title_en: 'Extravaganza Suspiria CH02',
+    title_fr: 'Extravaganza Suspiria CH02',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '',
@@ -233,8 +223,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749975/jules-belvega--extravaganza-suspiria--2024-11_qld4ke.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
+    title_en: 'Extravaganza Suspiria',
+    title_fr: 'Extravaganza Suspiria',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '',
@@ -243,8 +233,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749975/jules-belvega--extravaganza-suspiria--2024-12_icmcbv.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
+    title_en: 'Extravaganza Suspiria',
+    title_fr: 'Extravaganza Suspiria',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '',
@@ -253,8 +243,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749973/jules-belvega--extravaganza-suspiria--2024-1_waxuh7.jpg',
-    title_en: 'Extravagenza Suspiria',
-    title_fr: 'Extravagenza Suspiria',
+    title_en: 'Extravaganza Suspiria',
+    title_fr: 'Extravaganza Suspiria',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '',
@@ -263,8 +253,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1748195514/jules-belvega--extravaganza-suspiria--2024-13_lbb38s.jpg',
-    title_en: 'Extravagenza Suspiria Bench',
-    title_fr: 'Extravagenza Suspiria Bench',
+    title_en: 'Extravaganza Suspiria Bench',
+    title_fr: 'Extravaganza Suspiria Bench',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '',
@@ -273,8 +263,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749972/jules-belvega--extravaganza-suspiria--2024-2_zxfjzp.jpg',
-    title_en: 'Extravagenza Suspiria Bench',
-    title_fr: 'Extravagenza Suspiria Bench',
+    title_en: 'Extravaganza Suspiria Bench',
+    title_fr: 'Extravaganza Suspiria Bench',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '228x40x44cm',
@@ -283,8 +273,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749974/jules-belvega--extravaganza-suspiria--2024-3_nzmhpp.jpg',
-    title_en: 'Extravagenza Suspiria Bench',
-    title_fr: 'Extravagenza Suspiria Bench',
+    title_en: 'Extravaganza Suspiria Bench',
+    title_fr: 'Extravaganza Suspiria Bench',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '',
@@ -293,8 +283,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749973/jules-belvega--extravaganza-suspiria--2024-5_fggbia.jpg',
-    title_en: 'Extravagenza Suspiria CH01',
-    title_fr: 'Extravagenza Suspiria CH01',
+    title_en: 'Extravaganza Suspiria CH01',
+    title_fr: 'Extravaganza Suspiria CH01',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '52x56x89cm',
@@ -303,8 +293,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749975/jules-belvega--extravaganza-suspiria--2024-6_nxk57z.jpg',
-    title_en: 'Extravagenza Suspiria CH01',
-    title_fr: 'Extravagenza Suspiria CH01',
+    title_en: 'Extravaganza Suspiria CH01',
+    title_fr: 'Extravaganza Suspiria CH01',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '',
@@ -313,8 +303,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749974/jules-belvega--extravaganza-suspiria--2024-8_tdrvvq.jpg',
-    title_en: 'Extravagenza Suspiria CH02',
-    title_fr: 'Extravagenza Suspiria CH02',
+    title_en: 'Extravaganza Suspiria CH02',
+    title_fr: 'Extravaganza Suspiria CH02',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '',
@@ -323,8 +313,8 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749980/jules-belvega--extravaganza-suspiria--2024-9_y5rt1l.jpg',
-    title_en: 'Extravagenza Suspiria CH02',
-    title_fr: 'Extravagenza Suspiria CH02',
+    title_en: 'Extravaganza Suspiria CH02',
+    title_fr: 'Extravaganza Suspiria CH02',
     material_en: 'La maison de la chapelle',
     material_fr: 'La maison de la chapelle',
     size: '52x56x89cm',
@@ -463,7 +453,7 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749981/jules-belvega--suspiria-chair--mix-fox-brussels--2023-1_ru9s5t.jpg',
-    title_en: 'Suspiria chair',
+    title_en: 'Suspiria Chair',
     title_fr: 'Chaise Suspiria',
     material_en: 'Fox Mix Brussels',
     material_fr: 'Fox Mix Bruxelles',
@@ -473,7 +463,7 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749983/jules-belvega--suspiria-chair--mix-fox-brussels--2023-3_pohuqs.jpg',
-    title_en: 'Suspiria chair',
+    title_en: 'Suspiria Chair',
     title_fr: 'Chaise Suspiria',
     material_en: 'Fox Mix Brussels',
     material_fr: 'Fox Mix Bruxelles',
@@ -483,7 +473,7 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749983/jules-belvega--suspiria-chair--mix-fox-brussels--2023-4_uxnkpe.jpg',
-    title_en: 'Suspiria chair',
+    title_en: 'Suspiria Chair',
     title_fr: 'Chaise Suspiria',
     material_en: 'Fox Mix Brussels',
     material_fr: 'Fox Mix Bruxelles',
@@ -493,7 +483,7 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749984/jules-belvega--suspiria-chair--mix-fox-brussels--2023-5_hmmske.jpg',
-    title_en: 'Suspiria chair',
+    title_en: 'Suspiria Chair',
     title_fr: 'Chaise Suspiria',
     material_en: 'Fox Mix Brussels',
     material_fr: 'Fox Mix Bruxelles',
@@ -503,7 +493,7 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749983/jules-belvega--suspiria-chair--mix-fox-brussels--2023-6_gzfvzw.jpg',
-    title_en: 'Suspiria chair',
+    title_en: 'Suspiria Chair',
     title_fr: 'Chaise Suspiria',
     material_en: 'Fox, Mix Brussels',
     material_fr: 'Fox, Mix Bruxelles',
@@ -563,22 +553,12 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749986/jules-belvega--suspiria-wip--2023-1_q16dqs.jpg',
-    title_en: 'Suspiria chair',
+    title_en: 'Suspiria Chair',
     title_fr: 'Chaise Suspiria',
     material_en: '',
     material_fr: '',
     size: '',
     date: '2023'
-  },
-  {
-    type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749988/jules-belvega--the-machiavellian-eye--2024-11_ltqmks.jpg',
-    title_en: 'The Machiavellian Eye',
-    title_fr: 'The Machiavellian Eye',
-    material_en: '',
-    material_fr: '',
-    size: '',
-    date: '2025'
   },
   {
     type: 'image',
@@ -762,7 +742,7 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749992/jules-belvega--wait-here-brussels--2024-3_cseka2.jpg',
-    title_en: 'Suspiria chair',
+    title_en: 'Suspiria Chair',
     title_fr: 'Chaise Suspiria',
     material_en: 'Wait Here Brussels',
     material_fr: 'Wait Here Bruxelles',
@@ -782,7 +762,7 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749993/jules-belvega--wait-here-brussels--2024-5_evlggt.jpg',
-    title_en: 'Suspiria chair x Belalbatros',
+    title_en: 'Suspiria Chair x Belalbatros',
     title_fr: 'Chaise Suspiria x Belalbatros',
     material_en: 'Wait Here, Brussels',
     material_fr: 'Wait Here, Bruxelles',
