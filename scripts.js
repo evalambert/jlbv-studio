@@ -878,3 +878,15 @@ $(document).ready(function () {
   })
 })
 
+document.querySelectorAll('.menu.link, #lang-switch span').forEach(el => {
+  el.addEventListener('touchstart', () => {
+    el.style.transition = 'color 0.5s ease'
+    el.style.color = 'lightgrey'
+  })
+
+  el.addEventListener('touchend', () => {
+    setTimeout(() => {
+      el.style.color = 'black'
+    }, 200) // durée du "flash"
+  })
+})

@@ -168,6 +168,8 @@ a:hover {
   color: lightgrey;
   transition: all 0.5s;
 }
+
+
 /* WRAPPER-IMAGE ///////////////////////////////*/
 .wrapper-img {
   position: fixed;
@@ -490,10 +492,23 @@ h2 {
   }
 }
 
+/* USER-SELECT ///////////////////////////////*/
 .wrapper-contact,
 .caption,
 .caption * {
   user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none; 
+  -ms-user-select: none;
+}
+
+#lang-switch,
+#infos-open,
+#infos-close {
+  -webkit-tap-highlight-color: transparent;
+}
+
+#lang-switch:focus,
+#infos-open:focus,
+#infos-close:focus {
+  outline: none;
 }
