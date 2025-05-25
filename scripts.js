@@ -73,7 +73,7 @@ const media = [
   {
     type: 'image',
     file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749968/jules-belvega--botch-01-brussels--2023-3_snqp4r.jpg',
-    title_en: 'Botch-1 Exhibiton',
+    title_en: 'Botch-1',
     title_fr: 'Botch-1',
     material_en: 'Brussels',
     material_fr: 'Bruxelles',
