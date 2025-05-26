@@ -768,16 +768,6 @@ const media = [
     material_fr: 'Wait Here, Cloud Seven Bruxelles',
     size: '',
     date: '2024'
-  },
-  {
-    type: 'image',
-    file: 'https://res.cloudinary.com/dyc6vnymg/image/upload/v1747749994/jules-belvega--wait-here-brussels--2024-6_eyd8x3.jpg',
-    title_en: 'Wait Here',
-    title_fr: 'Wait Here',
-    material_en: 'Cloud Seven Brussels',
-    material_fr: 'Cloud Seven Bruxelles',
-    size: '',
-    date: '2024'
   }
 ]
 
